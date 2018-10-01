@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`loader removes unused CSS rules 1`] = `
+exports[`loader executes callback with received content 1`] = `
 "module.exports = { message: 'Hello!' }
 "
 `;
