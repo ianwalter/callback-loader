@@ -1,0 +1,6 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`loader removes unused CSS rules 1`] = `
+"module.exports = { message: 'Hello!' }
+"
+`;
