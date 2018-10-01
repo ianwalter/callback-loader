@@ -37,5 +37,17 @@
     "memory-fs": "^0.4.1",
     "np": "^3.0.4",
     "webpack": "^4.20.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "jest/globals": true
+    },
+    "extends": [
+      "standard"
+    ],
+    "plugins": [
+      "jest"
+    ]
   }
 }
