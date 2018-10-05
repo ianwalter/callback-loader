@@ -7,6 +7,9 @@
     "test": "jest",
     "lint": "eslint --ext js index.js tests"
   },
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ianwalter/callback-loader.git"
