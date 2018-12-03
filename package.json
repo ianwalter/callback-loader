@@ -1,6 +1,6 @@
 {
   "name": "@ianwalter/callback-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Webpack loader that receives content and passes it to a callback function specified in the loader options",
   "main": "index.js",
   "scripts": {
