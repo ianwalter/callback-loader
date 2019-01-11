@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "lint": "eslint --ext js index.js tests"
+    "lint": "eslint index.js tests"
   },
   "files": [
     "index.js"
