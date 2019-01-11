@@ -39,7 +39,7 @@
     "jest": "^23.6.0",
     "memory-fs": "^0.4.1",
     "np": "^3.0.4",
-    "webpack": "^4.20.2"
+    "webpack": "^4.28.4"
   },
   "eslintConfig": {
     "root": true,
