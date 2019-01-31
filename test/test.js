@@ -1,8 +1,9 @@
-const { join } = require('path')
-const webpack = require('webpack')
-const MemoryFileSystem = require('memory-fs')
+import { join } from 'path'
+import test from 'ava'
+import webpack from 'webpack'
+import MemoryFileSystem from 'memory-fs'
 
-test('loader executes callback with received content', done => {
+test.cb('loader executes callback with received content', t => {
   const compiler = webpack({
     entry: join(__dirname, './fixtures/example.js'),
     module: {
@@ -12,8 +13,8 @@ test('loader executes callback with received content', done => {
           loader: join(__dirname, '../'),
           options: {
             callback: content => {
-              expect(content).toMatchSnapshot()
-              done()
+              t.snapshot(content)
+              t.end()
             }
           }
         }
