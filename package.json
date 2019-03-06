@@ -32,13 +32,8 @@
     "loader-utils": "^1.1.0"
   },
   "devDependencies": {
+    "@ianwalter/eslint-config": "^1.0.0",
     "ava": "^1.2.1",
-    "eslint": "^5.15.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-node": "^8.0.1",
-    "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-standard": "^4.0.0",
     "memory-fs": "^0.4.1",
     "np": "^3.0.4",
     "webpack": "^4.29.6"
@@ -46,8 +41,7 @@
   "eslintConfig": {
     "root": true,
     "extends": [
-      "eslint:recommended",
-      "standard"
+      "@ianwalter/eslint-config"
     ]
   }
 }
