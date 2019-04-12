@@ -7,7 +7,7 @@
 ## Installation
 
 ```console
-npm install @ianwalter/callback-loader --save
+yarn add @ianwalter/callback-loader --dev
 ```
 
 ## Usage
