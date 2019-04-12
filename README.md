@@ -2,6 +2,8 @@
 > A Webpack loader that receives content and passes it to a callback function
 > specified in the loader options
 
+[![npm page][npmImage]][npmUrl]
+
 ## Installation
 
 ```console
@@ -33,4 +35,6 @@ Apache 2.0 with Commons Clause - See [LICENSE][licenseUrl]
 
 Created by [Ian Walter](https://iankwalter.com)
 
+[npmImage]: https://img.shields.io/npm/v/@ianwalter/callback-loader.svg
+[npmUrl]: https://www.npmjs.com/package/@ianwalter/callback-loader
 [licenseUrl]: https://github.com/ianwalter/callback-loader/blob/master/LICENSE
