@@ -4,8 +4,8 @@
   "description": "A Webpack loader that receives content and passes it to a callback function specified in the loader options",
   "main": "index.js",
   "scripts": {
-    "test": "ava",
-    "lint": "eslint index.js test"
+    "lint": "eslint index.js test",
+    "test": "bff"
   },
   "files": [
     "index.js"
@@ -32,8 +32,8 @@
     "loader-utils": "^1.1.0"
   },
   "devDependencies": {
+    "@ianwalter/bff": "^2.8.0",
     "@ianwalter/eslint-config": "^1.1.2",
-    "ava": "^1.4.1",
     "memory-fs": "^0.4.1",
     "np": "^3.0.4",
     "webpack": "^4.29.6"
@@ -41,7 +41,7 @@
   "eslintConfig": {
     "root": true,
     "extends": [
-      "@ianwalter/eslint-config"
+      "@ianwalter"
     ]
   }
 }
